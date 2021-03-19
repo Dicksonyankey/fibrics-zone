@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    /* border-bottom: 1px solid orange; */
+    background-color: #000;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* max-width: 1500px; */
+
+}
+
+.header__left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logoLeft{
+    display: flex;
+    align-items: center;
+    border: 2px solid orange;
+    border-right: none;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    height: 10px;
+    /* margin-right: 5px; */
+    padding: 10px;
+}
+
+.header__logoRight{
+    display: flex;
+    align-items: center;
+    border: 2px solid orange;
+    padding: 10px;
+    font-family: monospace;
+    height: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.header__middle{
+    display: flex;
+    justify-content: space-around;
+    flex: 0.6;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header__input{
+    /* margin-left: 20px; */
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-style: italic;
+    border: none;
+    outline: 0;
+}
+
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: orange;
+}
+
+.header__right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__right > .MuiIconButton-root{
+    color: white;
+}
+
+.header__rightSpan{
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+}

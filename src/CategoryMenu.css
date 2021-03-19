@@ -1,0 +1,72 @@
+.categorymenu{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    width: 100%
+}
+
+.discount__tag{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+    background-color: red;
+    padding: 10px;
+}
+
+.tag{
+    color: whitesmoke;
+    font-size: 20px;
+    /* font-family: monospace; */
+}
+
+.category__item{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 400px;
+    height: 350px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(240, 238, 238);
+    box-shadow: 5px 5px 8px -9px  rgba(0,0,0,0.75);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+
+}
+
+
+.category__item >img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+
+.categorymenu__details{
+    margin-left: 10px;
+}
+
+.category__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.category__buttons > .MuiIconButton-root{
+    color: black;
+
+
+}
+
+.category__buttons > .MuiIconButton-root:hover{
+    background-color: red;
+
+}
